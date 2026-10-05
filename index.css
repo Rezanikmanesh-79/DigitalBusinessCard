@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;          
+    min-height: 100vh;           
+    padding: 24px;                
+    background-color: #23252c;
+}
+
+.card {
+    text-align: center;
+    background-color: #1a1b21;
+    width: 100%;
+    max-width: 400px;             
+    color: #ffffff;
+    border-radius: 10px;         
+    overflow: hidden;            
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1.1;
+    object-fit: cover;
+}
+
+.info {
+    padding: 24px 28px;
+}
+
+.name {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #fcfcfc;
+}
+
+.title {
+    margin-top: 4px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #d8aa8a;
+}
+
+.website {
+    margin-top: 12px;
+    font-size: 0.75rem;
+    color: #cbcbcd;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 16px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px 20px;
+    width: 120px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.btn-email {
+    background-color: white;
+    color: #1a1b21;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-linkedin {
+    background-color: #0077b5;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.section {
+    margin-top: 28px;
+    text-align: left;
+}
+
+.section h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #f5f5f5;
+    margin-bottom: 8px;
+}
+
+.section p {
+    font-size: 0.8rem;
+    line-height: 1.6;
+    color: #b7b8b9;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: #161619;
+    width: 100%;
+    padding: 20px 0;              
+}
+
+footer a {
+    color: #918e9b;              
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+footer img {
+    width: 28px;
+    height: 28px;
+    display: block;
+}
+
+.info-card {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #f5f5f5;
+    text-align: left;
+}
+
+.card-butt {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
